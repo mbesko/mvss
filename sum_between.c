@@ -7,8 +7,8 @@
 #include "sum_before_and_after.h"
 
 int sum_between(int len_a ,int a[]) {
-    int index_last_funct = index_last_zero(len_a, a[]);
-    int index_first_funct = index_first_zero(len_a, a[]);
+    int index_last_funct = index_last_zero(len_a, a);
+    int index_first_funct = index_first_zero(len_a, a);
     if ((index_last_funct != -1) || (index_first_funct != -1))
         return -1;
     else {
